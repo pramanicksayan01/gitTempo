@@ -1,0 +1,658 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-03T10:56:47.698Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3574829700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.initi()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "possitive login scenario",
+        "description": "",
+        "id": "login-feature;possitive-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 625621500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1434692200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242622000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"priti\" and \"priti1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priti\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"priti1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.cg.stepdef.LoginStepDef.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105196600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on button",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_clicks_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.cg.stepdef.LoginStepDef.user_is_on_home_page(LoginStepDef.java:43)\r\n\tat ✽.user is on home page(file:///C:/Users/PRWADPAL/FS_Selenium_BDD_15Dec/BDDDemoProject/features/Login.feature:10)\r\n",
+              "duration": 11931483400,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T10:57:05.835Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2711712600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.initi()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Negative Login Scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 185813600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1354312600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246474300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters \"admin\" and \"admin1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.cg.stepdef.LoginStepDef.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101264900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on button",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_clicks_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20320830900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on same page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_same_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T10:57:30.799Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2820460700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.initi()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Negative Login Scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 225045400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258855800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 269871500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters \"\" and \"admin1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin1234\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.cg.stepdef.LoginStepDef.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117685800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on button",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_clicks_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1472847300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on same page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_same_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T10:57:37.002Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2772987800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.initi()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Negative Login Scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 225089100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1221021500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211270900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters \"admin\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.cg.stepdef.LoginStepDef.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99966100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on button",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_clicks_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7244617800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on same page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_same_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T10:57:48.803Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2646739800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.initi()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Negative Login Scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 216218000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1332377500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232112200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters \"priti\" and \"priti1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priti\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"priti1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.cg.stepdef.LoginStepDef.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100129200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on button",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_clicks_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12638571400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on same page",
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.user_is_on_same_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-03T10:58:06.018Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2726184100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.initi()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Possitive Registration scenario",
+        "description": "",
+        "id": "registration-feature;possitive-registration-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 130665100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.stepdef.LoginStepDef.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.cg.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8976100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user user enters details",
+            "match": {
+              "location": "com.cg.stepdef.RegisterStepDef.user_user_enters_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "king"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "king1234"
+                ]
+              },
+              {
+                "cells": [
+                  "confirmpass",
+                  "king1234"
+                ]
+              },
+              {
+                "cells": [
+                  "mob",
+                  "2433456546"
+                ]
+              },
+              {
+                "cells": [
+                  "comp",
+                  "CG"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "com.cg.stepdef.RegisterStepDef.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is registerd successfully",
+            "match": {
+              "location": "com.cg.stepdef.RegisterStepDef.user_is_registerd_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "Registration Feature",
+    "description": "",
+    "id": "registration-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
